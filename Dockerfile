@@ -4,7 +4,7 @@ MAINTAINER anis
 
 RUN apt-get update && apt-get install -y nginx
 
-ADD index.html.en /var/www/html/index.html
+ADD index.html /var/www/html/index.html
 
 VOLUME /var/www/html
 
